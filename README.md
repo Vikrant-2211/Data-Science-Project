@@ -64,6 +64,3 @@ print("Logistic Regression Accuracy:", accuracy_score(y_test, y_pred_lr))
 print(confusion_matrix(y_test, y_pred_lr))
 print(classification_report(y_test, y_pred_lr))
 
-print("Random Forest Accuracy:", accuracy_score(y_test, y_pred_rf))
-print(confusion_matrix(y_test, y_pred_rf))
-print(classification_report(y_test, y_pred_rf))
